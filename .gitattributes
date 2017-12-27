@@ -1,3 +1,3 @@
-spice/* linguist-vendored
-images/* linguist-documentation
+* linguist-vendored
+*.pro linguist-vendored=false
 *.pro linguist-language=IDL
