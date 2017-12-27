@@ -1,0 +1,3 @@
+spice/* linguist-vendored
+images/* linguist-documentation
+*.pro linguist-language=IDL
