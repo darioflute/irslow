@@ -21,7 +21,13 @@ to add to your path irslow and the directory with the spline codes from IDLUTILS
 The directory called spice contains the most uptodate distribution of IRS calibration. This can be retrieved at
 the [official spice website](http://irsa.ipac.caltech.edu/data/SPITZER/docs/dataanalysistools/tools/spice/).
 
-Running the software is pretty easy. First, you need the list of the BCDs covering the source (from one or more AORs) in the long-low or in the short-low mode. You can use in IDL: 
+Running the software is pretty easy. First, execute irslow to insure that all subroutines are active.
+
+.r irslow
+
+
+You also need the list of the BCDs covering the source (from one or more AORs) in the long-low or in the short-low mode. 
+If you downloaded bcd files of one AOR in the path: /path/r00000000, you can get the names by writing:
 
 list=file_search('/path/r00000000/ch0/bcd/*bcd.fits') 
 
