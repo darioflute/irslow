@@ -263,10 +263,12 @@ COMMON database
 
 ;; NB: read the calibration from the data !!
 
+findpro, 'irslow', dir=path0, /noprint
+
 info = {$
        channel:"long", $
        action:"NONE", $
-       caldir:'~/IrsLow/spice/cal/', $
+       caldir:path0[0]+'spice/cal/', $
        aper: 0,$
        out: 0, $
        force: 0, $
