@@ -14,7 +14,7 @@ git clone https://github.com/darioflute/irslow.git
 you will start IDL, add to the path the place where you cloned the repository, and start the code.
 For instance, if you clone the repository in your root directory, you will write:
 
-!path += "\~/irslow/:~/irslow/bspline/"
+!path += ":\~/irslow/:~/irslow/bspline/"
 
 to add to your path irslow and the directory with the spline codes from IDLUTILS.
 
